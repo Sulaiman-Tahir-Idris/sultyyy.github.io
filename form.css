@@ -1,0 +1,147 @@
+/* form.css */
+
+/* Add your form-specific styles here */
+body {
+    background: url('img/bg1.jpg') center/cover no-repeat fixed;
+}
+#hire-form {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+#hire-form h2 {
+    text-align: center;
+    color: #fff;
+}
+
+#hire-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+#hire-form input,
+#hire-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+#hire-form button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#hire-form button:hover {
+    background-color: #27ae60;
+}
+
+/* form.css */
+
+/* Add your form-specific styles here */
+
+/* ... Other styles ... */
+
+#success-message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #2980b9;
+}
+
+/* form.css */
+
+/* Add your form-specific styles here */
+
+#hire-form {
+    max-width: 100%; /* Adjust the maximum width to fit the screen */
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#hire-form h2 {
+    text-align: center;
+}
+
+#hire-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#hire-form input,
+#hire-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+#hire-form button {
+    width: 100%; /* Make the button full-width */
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#hire-form button:hover {
+    background-color: #27ae60;
+}
+
+#success-message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-button {
+    width: 100%; /* Make the button full-width */
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #2980b9;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (min-width: 768px) {
+    #hire-form {
+        max-width: 400px; /* Adjust the maximum width for larger screens */
+        margin: 0 auto; /* Center the form horizontally */
+    }
+}
